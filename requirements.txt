@@ -7,5 +7,6 @@ pymongo[srv]>=4.9
 scikit-learn
 scipy
 pyaml
+mlflow
 
 ##-e .
