@@ -6,7 +6,6 @@ certifi
 pymongo[srv]>=4.9
 scikit-learn
 scipy
-dill
 pyaml
 
 ##-e .
