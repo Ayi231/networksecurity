@@ -1,4 +1,4 @@
-### Network security Projects for Phishing Data
+### Network Security Project for Phishing Data
 Train/evaluate phishing classifiers, track experiments with MLflow, and serve predictions via FastAPI (Dockerized).
 
 Features:
@@ -17,6 +17,8 @@ Features:
 
 -Optional CI (GitHub Actions) for lint/tests/build
 
+
+
 Quick Start commands:
 
 python -m venv .venv
@@ -31,6 +33,7 @@ python src/train.py --data data/phishing.csv
 mlflow ui
 
 uvicorn app.main:app --reload
+
 
 
 
