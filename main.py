@@ -8,6 +8,7 @@ from networksecurity.entity.config_entity import DataIngestionConfig,DataValidat
 from networksecurity.entity.config_entity import TrainingPipelineConfig
 import sys
 
+## Use "mlflow ui" to compare models
 
 if __name__ == '__main__':
     try:
